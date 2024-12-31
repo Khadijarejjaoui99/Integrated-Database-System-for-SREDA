@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="databaseproject.DataEntrySectorWiseApplicationController">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="250.0" style="-fx-background-color: #22292d;">
+         <children>
+            <VBox prefHeight="650.0" prefWidth="250.0">
+               <children>
+                  <AnchorPane prefHeight="57.0" prefWidth="250.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BangoDash" textAlignment="CENTER">
+                           <font>
+                              <Font name="Script MT Bold" size="23.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="33.0" prefWidth="250.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAIN NAVIGATION" wrappingWidth="111.37255942821503">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#Dashboard" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Dashboard">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="21.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntryGDP" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: GDP">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntryIntensity" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Intensity">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntrySupply" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Supply">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab1" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Consumption">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="21.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab2" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Sector Wise Application">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab3" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 3">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab4" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 4">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#UIIcons" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="UI Icons">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#tab6" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 6">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="22.0" layoutY="10.0" mnemonicParsing="false" onAction="#Settings" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Settings">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Hyperlink layoutX="21.0" layoutY="4.0" onAction="#Faqs" text="FAQs">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink layoutX="170.0" layoutY="4.0" onAction="#Exit" text="Log Out">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink layoutX="90.0" layoutY="4.0" onAction="#AboutUs" text="About us">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" prefHeight="56.0" prefWidth="999.0" style="-fx-background-color: ff3b54;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Entry: Sector Wise Application">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" layoutY="56.0" prefHeight="594.0" prefWidth="999.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="539.0" prefWidth="961.0">
+               <children>
+                  <Button layoutX="814.0" layoutY="494.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #ffeaea;" text="Save data">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="681.0" layoutY="494.0" mnemonicParsing="false" onAction="#ResetButton" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #ffeaea;" text="Reset">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text fx:id="Warning" layoutX="681.0" layoutY="483.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="249.9999848306179">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="276.0" layoutY="54.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="CEMENT">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="406.0" layoutY="53.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="GARMENTS">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="545.0" layoutY="53.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="SPINNING">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="698.0" layoutY="53.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="PAPER">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="14.0" layoutY="140.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Average amount per project: ">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="51.0" layoutY="177.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Total Loan Amount BDT:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="69.0" layoutY="89.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Number of Projects: ">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Cement" layoutX="292.0" layoutY="86.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="64.00002202391624">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Garments" layoutX="423.0" layoutY="86.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="70.00001361966133">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Spinning" layoutX="563.0" layoutY="87.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="59.355472415685654">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="NumberOfProjectsT1" layoutX="130.0" layoutY="55.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.37255942821503">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="paper" layoutX="702.0" layoutY="85.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.37255942821503">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="CementPerProject" layoutX="241.0" layoutY="121.0" prefHeight="25.0" prefWidth="118.0" />
+                  <TextField fx:id="GarmentPerProject" layoutX="380.0" layoutY="121.0" prefHeight="25.0" prefWidth="118.0" />
+                  <TextField fx:id="SpinnignPerProject" layoutX="516.0" layoutY="121.0" prefHeight="25.0" prefWidth="118.0" />
+                  <TextField fx:id="PaperPerProject" layoutX="659.0" layoutY="121.0" prefHeight="25.0" prefWidth="118.0" />
+                  <Text fx:id="CementTotal" layoutX="244.0" layoutY="174.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.37255942821503">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="GarmentTotal" layoutX="383.0" layoutY="173.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.37255942821503">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="SpinnigTotal" layoutX="519.0" layoutY="174.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.37255942821503">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="PaperTotal" layoutX="662.0" layoutY="173.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="111.37255942821503">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="warning" layoutX="681.0" layoutY="482.0" opacity="0.6" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="249.9999848306179">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

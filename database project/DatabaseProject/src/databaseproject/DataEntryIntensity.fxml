@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="databaseproject.DataEntryIntensityController">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="250.0" style="-fx-background-color: #22292d;">
+         <children>
+            <VBox prefHeight="650.0" prefWidth="250.0">
+               <children>
+                  <AnchorPane prefHeight="57.0" prefWidth="250.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BangoDash" textAlignment="CENTER">
+                           <font>
+                              <Font name="Script MT Bold" size="23.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="33.0" prefWidth="250.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAIN NAVIGATION" wrappingWidth="111.37255942821503">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#Dashboard" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Dashboard">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="21.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntryGDP" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: GDP">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntryIntensity" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Intensity">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntrySupply" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Supply">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab1" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Consumption">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="21.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab2" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 2">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab3" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 3">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab4" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 4">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#UIIcons" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="UIIcons">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#tab6" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 6">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="22.0" layoutY="10.0" mnemonicParsing="false" onAction="#Settings" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Settings">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Hyperlink layoutX="21.0" layoutY="4.0" onAction="#Faqs" text="FAQs">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink layoutX="170.0" layoutY="4.0" onAction="#Exit" text="Log Out">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink layoutX="90.0" layoutY="4.0" onAction="#AboutUs" text="About us">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" prefHeight="56.0" prefWidth="999.0" style="-fx-background-color: ff3b54;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Entry: Intensity">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" layoutY="56.0" prefHeight="594.0" prefWidth="999.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="539.0" prefWidth="961.0">
+               <children>
+                  <TextField fx:id="YearFromTF" layoutX="230.0" layoutY="56.0" prefHeight="25.0" prefWidth="250.0" />
+                  <TextField fx:id="yearToTF" layoutX="230.0" layoutY="93.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="20.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year(from):">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="19.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year(to):" wrappingWidth="60.02928498387337">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="814.0" layoutY="494.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #ffeaea;" text="Save data">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="681.0" layoutY="494.0" mnemonicParsing="false" onAction="#ResetButton" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #ffeaea;" text="Reset">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <TextField fx:id="OilIntensityTF" layoutX="231.0" layoutY="169.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="20.0" layoutY="186.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Oil Intensity:">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="OilIntensityETTF" layoutX="231.0" layoutY="205.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="19.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intensity(excluding transport):">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="GDPTF" layoutX="231.0" layoutY="131.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="20.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="GDP in taka(Billion):">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="EnergyIntensityTF" layoutX="231.0" layoutY="454.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="526.9999941363931">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="EnergyIntensityETTF" layoutX="231.0" layoutY="482.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="526.9999783709645">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="Warning" layoutX="681.0" layoutY="483.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="249.9999848306179">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="GasIntensityTF" layoutX="231.0" layoutY="240.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="20.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gas Intensity:">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="GasIntensityETTF" layoutX="231.0" layoutY="276.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="19.0" layoutY="294.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Intensity(excluding transport):">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="PowerAndHydroTF" layoutX="231.0" layoutY="311.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="20.0" layoutY="329.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Power from Hydro &amp; Imports:">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="CoalTF" layoutX="231.0" layoutY="345.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="20.0" layoutY="362.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Coal:">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="TPESTF" layoutX="231.0" layoutY="396.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="526.9999941363931">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="TPESETTF" layoutX="231.0" layoutY="424.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="526.9999783709645">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

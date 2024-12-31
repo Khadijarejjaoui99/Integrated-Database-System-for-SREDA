@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="databaseproject.DataEntryConsumptionController">
+   <children>
+      <AnchorPane prefHeight="650.0" prefWidth="250.0" style="-fx-background-color: #22292d;">
+         <children>
+            <VBox prefHeight="650.0" prefWidth="250.0">
+               <children>
+                  <AnchorPane prefHeight="57.0" prefWidth="250.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BangoDash" textAlignment="CENTER">
+                           <font>
+                              <Font name="Script MT Bold" size="23.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="33.0" prefWidth="250.0">
+                     <children>
+                        <Text fill="WHITE" layoutX="69.0" layoutY="21.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MAIN NAVIGATION" wrappingWidth="111.37255942821503">
+                           <font>
+                              <Font name="Arial Bold" size="12.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#Dashboard" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Dashboard">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="21.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntryGDP" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: GDP">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntryIntensity" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Intensity">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#DataEntrySupply" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Supply">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab1" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Data Entry: Consumption">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="21.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab2" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 2">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab3" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 3">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="9.0" mnemonicParsing="false" onAction="#tab4" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 4">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#UIIcons" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="UI Icons">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="20.0" layoutY="10.0" mnemonicParsing="false" onAction="#tab6" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="tab 6">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Button layoutX="22.0" layoutY="10.0" mnemonicParsing="false" onAction="#Settings" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffeaea;" text="Settings">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Button>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0">
+                     <children>
+                        <Hyperlink layoutX="21.0" layoutY="4.0" onAction="#Faqs" text="FAQs">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink layoutX="170.0" layoutY="4.0" onAction="#Exit" text="Log Out">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                        <Hyperlink layoutX="90.0" layoutY="4.0" onAction="#AboutUs" text="About us">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Hyperlink>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="45.0" prefWidth="250.0" />
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" prefHeight="56.0" prefWidth="999.0" style="-fx-background-color: ff3b54;">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Data Entry: Consumption">
+               <font>
+                  <Font name="Agency FB Bold" size="20.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="250.0" layoutY="56.0" prefHeight="594.0" prefWidth="999.0">
+         <children>
+            <AnchorPane layoutX="14.0" layoutY="14.0" prefHeight="539.0" prefWidth="961.0">
+               <children>
+                  <TextField fx:id="YearFromTF" layoutX="215.0" layoutY="22.0" prefHeight="25.0" prefWidth="250.0" />
+                  <TextField fx:id="yearToTF" layoutX="573.0" layoutY="21.0" prefHeight="25.0" prefWidth="250.0" />
+                  <Text layoutX="139.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year(from):">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="513.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Year(to):" wrappingWidth="60.02928498387337">
+                     <font>
+                        <Font name="Arial" size="15.0" />
+                     </font>
+                  </Text>
+                  <Button layoutX="814.0" layoutY="494.0" mnemonicParsing="false" onAction="#SaveButton" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #ffeaea;" text="Save data">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Button layoutX="681.0" layoutY="494.0" mnemonicParsing="false" onAction="#ResetButton" prefHeight="25.0" prefWidth="118.0" style="-fx-background-color: #ffeaea;" text="Reset">
+                     <font>
+                        <Font size="11.0" />
+                     </font>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </Button>
+                  <Text fx:id="Warning" layoutX="681.0" layoutY="483.0" opacity="0.55" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="249.9999848306179">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="220.0" layoutY="79.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Coal">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="399.0" layoutY="79.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Gas">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="600.0" layoutY="79.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Oil">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="779.0" layoutY="79.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Power">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="60.0" layoutY="114.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Industry:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="68.0" layoutY="316.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Other:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="55.0" layoutY="155.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Transport:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="61.0" layoutY="236.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Building:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="50.0" layoutY="279.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Agriculture:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="56.0" layoutY="359.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Domestic:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="55.0" layoutY="196.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Residence">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="47.0" layoutY="394.0" opacity="0.66" strokeType="OUTSIDE" strokeWidth="0.0" text="Commercial:">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <TextField fx:id="ICoal" layoutX="159.0" layoutY="92.0" />
+                  <TextField fx:id="IGas" layoutX="336.0" layoutY="93.0" />
+                  <TextField fx:id="TGas" layoutX="336.0" layoutY="134.0" />
+                  <TextField fx:id="RGas" layoutX="336.0" layoutY="176.0" />
+                  <TextField fx:id="BGas" layoutX="336.0" layoutY="216.0" />
+                  <TextField fx:id="AGas" layoutX="336.0" layoutY="258.0" />
+                  <TextField fx:id="IOil" layoutX="534.0" layoutY="93.0" />
+                  <TextField fx:id="TOil" layoutX="534.0" layoutY="134.0" />
+                  <TextField fx:id="ROil" layoutX="534.0" layoutY="176.0" />
+                  <TextField fx:id="BOil" layoutX="534.0" layoutY="216.0" />
+                  <TextField fx:id="AOil" layoutX="534.0" layoutY="258.0" />
+                  <TextField fx:id="IPower" layoutX="732.0" layoutY="93.0" />
+                  <TextField fx:id="APower" layoutX="732.0" layoutY="258.0" />
+                  <TextField fx:id="OPower" layoutX="732.0" layoutY="295.0" />
+                  <TextField fx:id="DPower" layoutX="732.0" layoutY="338.0" />
+                  <TextField fx:id="CPower" layoutX="732.0" layoutY="374.0" />
+                  <Text layoutX="220.0" layoutY="155.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="218.0" layoutY="197.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="218.0" layoutY="237.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="218.0" layoutY="279.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="220.0" layoutY="316.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="218.0" layoutY="359.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="218.0" layoutY="395.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="396.0" layoutY="319.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="394.0" layoutY="362.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="394.0" layoutY="398.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="594.0" layoutY="319.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="592.0" layoutY="362.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="592.0" layoutY="398.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="784.0" layoutY="156.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="782.0" layoutY="198.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+                  <Text layoutX="782.0" layoutY="238.0" opacity="0.23" strokeType="OUTSIDE" strokeWidth="0.0" text="NULL">
+                     <font>
+                        <Font name="Agency FB" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </children></AnchorPane>
+   </children>
+</AnchorPane>

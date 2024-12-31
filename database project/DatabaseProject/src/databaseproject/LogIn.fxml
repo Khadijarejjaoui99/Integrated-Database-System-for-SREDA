@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="databaseproject.LogInController">
+   <children>
+      <ImageView fitHeight="841.0" fitWidth="1265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@markus-spiske-5gGcn2PRrtc-unsplash-01.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="660.0" layoutY="2.0" prefHeight="624.0" prefWidth="546.0">
+         <children>
+            <Label layoutX="230.0" layoutY="220.0" opacity="0.85" text="Sign in." textFill="#393838">
+               <font>
+                  <Font name="Arial Italic" size="26.0" />
+               </font>
+            </Label>
+            <TextField fx:id="EATextField" layoutX="114.0" layoutY="258.0" onMouseClicked="#EAOnAction" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="user/email address...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <TextField fx:id="PTextField" layoutX="114.0" layoutY="292.0" onMouseClicked="#POnAction" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="password...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <Button alignment="CENTER" layoutX="210.0" layoutY="325.0" mnemonicParsing="false" onAction="#LogIn" opacity="0.85" prefHeight="25.0" prefWidth="126.0" text="Log In">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></Button>
+            <Hyperlink layoutX="223.0" layoutY="350.0" onAction="#ForgotPassword" prefHeight="31.0" prefWidth="100.0" text="Forgot password." />
+            <Hyperlink layoutX="246.0" layoutY="366.0" onAction="#SignIn" prefHeight="39.0" prefWidth="54.0" text="Sign Up." />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

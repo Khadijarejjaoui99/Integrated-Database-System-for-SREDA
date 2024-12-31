@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="databaseproject.SignUpController">
+   <children>
+      <ImageView fitHeight="841.0" fitWidth="1265.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@markus-spiske-5gGcn2PRrtc-unsplash-01.jpeg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="662.0" prefHeight="624.0" prefWidth="546.0">
+         <children>
+            <Label fx:id="SignUpLabel" alignment="CENTER" layoutX="115.0" layoutY="146.0" opacity="0.85" prefHeight="31.0" prefWidth="319.0" text="Sign Up" textFill="#393838">
+               <font>
+                  <Font name="Arial Italic" size="19.0" />
+               </font>
+            </Label>
+            <TextField fx:id="EATextField" layoutX="114.0" layoutY="220.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="enter email address...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <TextField fx:id="PWTextField" layoutX="114.0" layoutY="255.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="password...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <Hyperlink layoutX="196.0" layoutY="454.0" onAction="#ResetData" prefHeight="23.0" prefWidth="162.0" text="Reset data/Create New User." />
+            <Hyperlink layoutX="248.0" layoutY="431.0" onAction="#SignUp" prefHeight="23.0" prefWidth="53.0" text="Sign Up." />
+            <TextField fx:id="UTextField" layoutX="114.0" layoutY="291.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="user name...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <Hyperlink layoutX="256.0" layoutY="477.0" onAction="#Back" prefHeight="23.0" prefWidth="36.0" text="Back." />
+            <TextField fx:id="DOBTextField" layoutX="116.0" layoutY="326.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="DOB: day/month/year...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <TextField fx:id="WTextField" layoutX="116.0" layoutY="360.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="weight...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <TextField fx:id="BGTextField" layoutX="117.0" layoutY="396.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" promptText="blood group...">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <TextField layoutX="114.0" layoutY="186.0" opacity="0.85" prefHeight="25.0" prefWidth="319.0" />
+            <Label layoutX="198.0" layoutY="190.0" prefHeight="17.0" prefWidth="53.0" text="User ID: " />
+            <Label fx:id="UIDLabel" layoutX="243.0" layoutY="190.0" prefHeight="17.0" prefWidth="113.0" text="Auto generated..." />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
